@@ -1,5 +1,4 @@
-db.produtos.find({ $and:
-    [
+db.produtos.find({ $and:[
         {
             vendidos: { $gt: 50, $lt: 100 },
         },
